@@ -2,6 +2,16 @@ package com.jp.nian.zkSample.config;
 
 import org.junit.Test;
 
+/**
+ * @ClassName: ConfigTest  
+ * @Description: 配置中心的核心：数据从DB拿出来之后，同步到zk。
+ * 				修改DB的数据，同样也要同步到zk 
+ * @date: 2016年8月29日 上午11:47:24 
+ * 
+ * @author tanfan 
+ * @version  
+ * @since JDK 1.7
+ */
 public class ConfigTest {
 	@Test
     public void testZkConfig() throws InterruptedException {
